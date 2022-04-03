@@ -1,0 +1,53 @@
+.btn {
+    border: 1px solid transparent;
+    border-radius: 22px;
+    font-size: 16px;
+    line-height: 1.31;
+    cursor: pointer;
+
+    // в секции hero - font-size: 14px; - прописать отдельно
+    // font-weight - разный
+}
+
+.btn--circle {
+    height: 40px;
+    width: 40px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btn--transparent {
+    background-color: var(--secondary-text);
+    color: var(--primary-accent);
+    transition: color $transition-value,
+        background-color $transition-value;
+
+    &:hover,
+    &:focus {
+        background-color: var(--primary-accent);
+        color: var(--secondary-text);
+    }
+
+}
+
+.btn--accent {
+    background-color: var(--primary-accent);
+    color: var(--secondary-text);
+    transition: color $transition-value, background-color $transition-value;
+
+    &:hover,
+    &:focus {
+        background-color: var(--secondary-text);
+        color: var(--primary-accent);
+    }
+
+}
+
+
+// в кнопках предлагаю структуру классов (на примере hero):
+// hero-button hero-button__buy btn btn--accent
+// btn - сделать БЭМ блоком, а размеры на hero дать.
+// font-size, line-height - тоже разные.
+
+// КТО ДЕЛАЛ НОРМАЛАЙЗ ПОПРАВЬТЕ
