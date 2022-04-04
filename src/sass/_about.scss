@@ -1,0 +1,192 @@
+.about{
+    background: #FFF5F6;
+    background-image: url("/images/about-background-mob.png");
+    background-repeat: no-repeat;
+    background-position: right 0px bottom 61px;
+    background-size: contain;
+    text-align: center;
+    padding-top: 125px;
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        padding-top: 130px;
+        background-image: none;
+    }
+
+    @media screen and (min-width: 1200px) {
+        background-image: url("/images/about-background.png");
+        background-position: right 0px top 342px;
+    }
+}
+
+    @media screen and (max-width: 767px) {
+        @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {.about {background-image: url("/images/about-background-mob-2x.png");}}
+    }
+
+    @media screen and (min-width: 1200px) {
+        @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {.about {background-image: url("/images/about-background-2x.png");}}
+    }
+
+.about__container {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (min-width: 480px) {width: 480px;};
+
+    @media screen and (min-width: 768px) {
+        width: 768px;
+        padding-left: 39px;
+        padding-right: 36px;
+    };
+
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
+        padding-left: 112px;
+        padding-right: 117px;
+    };
+}
+
+
+
+
+.about__label {
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFA5BA;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.17;
+
+    @media screen and (min-width: 768px) {
+        font-size: 26px;
+        line-height: 1.15;
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-size: 30px;
+        line-height: 1.13;
+    }
+}
+
+.about__title {
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 26px;
+    text-transform: uppercase;
+    font-family: 'Titan One';
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 1,15;
+    letter-spacing: 0.04em;
+    color: #D41443;
+
+    @media screen and (min-width: 768px) {
+        font-size: 48px;
+        line-height: 1.15;
+        margin-bottom: 50px;
+        margin-top: 16px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-size: 58px;
+        line-height: 1.2;
+        letter-spacing: 0.06em;
+        margin-bottom: 55px;
+        margin-top: 15px;
+      }
+}
+
+.about__case{
+    @media screen and (min-width: 768px) {
+        display: flex;
+        // margin-left: 17px;
+    }
+}
+
+.about__box {
+    text-align: start;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 46px;
+
+    @media screen and (min-width: 768px) {
+        width: 340px;
+        margin-left: 17px;
+        margin-top: 50px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 463px;
+        margin-left: 74px;
+        margin-top: 51px;
+    }
+}
+
+.about__paragraph {
+    margin: 0;
+    // margin-bottom: 35px;
+
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1,62;
+
+    @media screen and (min-width: 768px) {
+        font-size: 14px;
+        line-height: 1,76;
+    }
+
+    @media screen and (min-width: 1200px) {
+         font-size: 16px;
+        line-height: 1,76;
+        letter-spacing: 0.04em;
+    }
+}
+
+.about__paragraph--style{
+    color: #907E82;
+    margin-top: 35px;
+}
+
+
+/*Btn*/
+.about__btn {
+    width: 176px;
+    height: 44px;
+    border-radius: 22px;
+    border: hidden;
+    background: #FFFFFF;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #D41443;
+
+    margin-top: 35px;
+
+    &:hover, &:focus{background: #ECEBEB;}
+
+    @media screen and (min-width: 768px) {
+        margin-top: 62px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-top: 45px;
+    }
+}
+
+
+.btn__icon {
+    margin-left: 14px;
+    align-items: center;
+    justify-content: center;
+    color: #D41443;
+}
