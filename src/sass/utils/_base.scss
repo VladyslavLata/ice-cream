@@ -1,14 +1,17 @@
 body {
-    color: var(--primary-text);
     font-family: 'DM Sans', sans-serif;
-    font-size: 14px;
     font-weight: 500;
+    font-size: 14px;
     line-height: 1.75;
     letter-spacing: 0.04em;
-    background-color: var(--secondary-bg);
+    background-color: var(--primary-bg);
 }
 
-.element-hidden {
+body.modal-open {
+    overflow: hidden;
+}
+
+.visually-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -37,9 +40,9 @@ body {
         padding-right: 32px;
     }
 
-    @media screen and (min-width: 1200px) {
-        width: 1200px;
-        padding-left: 40px;
-        padding-right: 40px;
+    @media screen and (min-width: 1280px) {
+        width: 1280px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
