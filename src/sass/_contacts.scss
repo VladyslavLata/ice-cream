@@ -6,21 +6,20 @@
     &__item {
         background-color: #ffffff;
         width: 100%;
-        padding: 43px 21px 43px 20px;
+        padding: 40px 32px;
         box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
         border-radius: 24px;
         text-align: start;
         margin-bottom: 20px;
     
         @media screen and (min-width: 768px) {
-            margin-right: 20px;
-            padding: 50px 32px 50px 31px;
-            width: calc(100% / 2 - 30px);
+            margin-right: 32px;
+            // width: calc(100% / 2 - 30px);
         }
     
         @media screen and (min-width: 1200px) {
-            margin-right: 30px;
-            padding: 51px 43px 62px 44px;
+            margin-right: 33px;
+            padding: 40px;
         }
     }
     &__item:nth-child(3n) {
@@ -43,18 +42,14 @@
     
     color: var(--secondary-text);
 
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 
     @media screen and (min-width: 768px) {
       width: 73px;
       height: 28px;
       font-size: 16px;
 
-      margin-bottom: 30px;
-    }
-
-    @media screen and (min-width: 1200px) {
-        margin-bottom: 32px;
+      margin-bottom: 32px;
     }
 }
 
@@ -83,10 +78,10 @@
 }
 
 .agency-list__title {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 
     @media screen and (min-width: 768px) and (max-width: 1199px) {
-        margin-bottom: 14px;
+        margin-bottom: 12px;
     }
 }
 
@@ -107,25 +102,17 @@
 }
 
 .agency-list__paragraph {
-    margin-bottom: 25px;
+    margin-bottom: 24px;
 
     @media screen and (min-width: 768px) {
-        margin-bottom: 30px;
-    }
-    
-    @media screen and (min-width: 1200px) {
         margin-bottom: 32px;
     }
 }
 
 .contacts-list {
-    margin-top: 25px;
+    margin-top: 24px;
     
     @media screen and (min-width: 768px) {
-        margin-top: 30px;
-    }
-    
-    @media screen and (min-width: 1200px) {
         margin-top: 32px;
     }
 }
@@ -139,15 +126,10 @@
 .timetable-list {
     border-top: 1px solid rgba(225, 225, 225, 1);
     border-bottom: 1px solid rgba(225, 225, 225, 1);
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 
     @media screen and (min-width: 768px) {
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-    
-    @media screen and (min-width: 1200px) {
         padding-top: 32px;
         padding-bottom: 32px;
     }
@@ -169,13 +151,15 @@
 }
 
 .week {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 
     @media screen and (min-width: 768px) {
-        margin-bottom: 16px;
+        margin-bottom: 12px;
     }
-    
-    @media screen and (min-width: 1200px) {
-        margin-bottom: 15px;
-    }
+}
+
+.btn__loc,
+.btn__fran {
+    width: 161px;
+    height: 44px;
 }
