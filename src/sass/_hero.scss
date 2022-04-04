@@ -1,5 +1,11 @@
 .hero {
   background-color: var(--hero-bg);
+
+  @media screen and (min-width: 1600px) {
+  width: 1600px;  
+  margin-left: auto;
+  margin-right: auto;
+  }
 }
 
 .container {
@@ -15,7 +21,7 @@
   padding-top: 193px;
   padding-bottom: 160px;
   z-index: 2;
-  outline: 1px solid #ff475f;
+  // outline: 1px solid #ff475f;
 
   @media screen and (max-width: 480px) {
     overflow: hidden;
@@ -77,8 +83,6 @@
   content: ' ';
   display: block;
   bottom: 75px;
-  // right: -62px;
-  // left: 36px;
   width: 346px;
   height: 344px;
   border-radius: 50%;
@@ -114,10 +118,10 @@
 
 .hero__item {
   @media screen and (min-width: 768px) {
-    position: absolute;
+            position: absolute;
     right: 32px;
     padding-right: 10px;
-    font-weight: 400;
+        font-weight: 400;
     font-size: 8px;
     line-height: 1.25;
     text-align: right;
@@ -129,7 +133,7 @@
     right: 16px;
     padding-right: 18px;
     font-size: 14px;
-    line-height: 1.29;
+    line-height: 1.28;
   }
 }
 
@@ -149,13 +153,13 @@
 
 .hero__item-food {
   @media screen and (min-width: 768px) {
-    width: 51px;
+    width: 59px;
     height: 43px;
     top: 152px;
   }
 
   @media screen and (min-width: 1280px) {
-    width: 92px;
+    width: 98px;
     height: 76px;
     top: 245px;
   }
