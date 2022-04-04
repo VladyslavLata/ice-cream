@@ -232,7 +232,7 @@
   }
 
   &__checkbox-form:hover + &__icon,
-  &__checkbox-form:focus + &__icon, {
+  &__checkbox-form:focus + &__icon {
     border: 2px solid var(rgba(0,0,0,0.15));
   }
 
