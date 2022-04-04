@@ -1,0 +1,181 @@
+.agency-list {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        margin-bottom: -20px;
+    }
+    &__item {
+        background-color: #ffffff;
+        width: 100%;
+        padding: 43px 21px 43px 20px;
+        box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+        border-radius: 24px;
+        text-align: start;
+        margin-bottom: 20px;
+    
+        @media screen and (min-width: 768px) {
+            margin-right: 20px;
+            padding: 50px 32px 50px 31px;
+            width: calc(100% / 2 - 30px);
+        }
+    
+        @media screen and (min-width: 1200px) {
+            margin-right: 30px;
+            padding: 51px 43px 62px 44px;
+        }
+    }
+    &__item:nth-child(3n) {
+        margin-right: 0;
+    }
+}
+
+.agency-list__cafe {
+    width: 80px;
+    height: 16px;
+    background: rgba(240, 209, 165, 1);
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 1.86;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.04em;
+    
+    color: var(--secondary-text);
+
+    margin-bottom: 25px;
+
+    @media screen and (min-width: 768px) {
+      width: 73px;
+      height: 28px;
+      font-size: 16px;
+
+      margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 32px;
+    }
+}
+
+.cafe {
+    width: 130px;
+    background: rgba(194, 226, 151, 1);
+
+    @media screen and (min-width: 768px) {
+        width: 138px;
+    }
+}
+
+.agency-list__title,
+.timetable-list__title {
+    font-size: 12px;
+    line-height: 1.86;
+    
+    color: var(--secondary-accent-text);
+
+    @media screen and (min-width: 768px) {
+        font-size: 14px;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 16px;
+    }
+}
+
+.agency-list__title {
+    margin-bottom: 10px;
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        margin-bottom: 14px;
+    }
+}
+
+.agency-list__paragraph,
+.contacts-list__link {
+  font-size: 12px;
+  line-height: 1.5;
+
+  color: var(--primary-text);
+  @media screen and (min-width: 768px) {
+      font-size: 14px;
+      line-height: 1.66;
+    } 
+  @media screen and (min-width: 1200px) {
+      font-size: 16px;
+      line-height: 1.83;
+    }
+}
+
+.agency-list__paragraph {
+    margin-bottom: 25px;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 30px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 32px;
+    }
+}
+
+.contacts-list {
+    margin-top: 25px;
+    
+    @media screen and (min-width: 768px) {
+        margin-top: 30px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        margin-top: 32px;
+    }
+}
+
+.contacts-list__link {
+    @media screen and (min-width: 768px) {
+        line-height: 1.83;
+    }
+}
+
+.timetable-list {
+    border-top: 1px solid rgba(225, 225, 225, 1);
+    border-bottom: 1px solid rgba(225, 225, 225, 1);
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    @media screen and (min-width: 768px) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    &__time {
+        font-size: 12px;
+        line-height: 1.86;
+    
+        color: var(--accent-text);
+    
+        @media screen and (min-width: 768px) {
+            font-size: 14px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            font-size: 16px;
+        }
+    }
+}
+
+.week {
+    margin-bottom: 10px;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 16px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 15px;
+    }
+}
