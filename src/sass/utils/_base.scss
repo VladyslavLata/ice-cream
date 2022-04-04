@@ -1,6 +1,6 @@
 body {
     color: var(--primary-text);
-    font-family: 'DM Sans', 'Titan One', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.75;
@@ -8,7 +8,7 @@ body {
     background-color: var(--hero-bg);
 }
 
-.element-hidden {
+.visually-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
