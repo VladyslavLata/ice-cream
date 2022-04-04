@@ -1,5 +1,5 @@
 .about{
-    background: #FFF5F6;
+    background: var(--secondary-bg);
     background-image: url("/images/about-background-mob.png");
     background-repeat: no-repeat;
     background-position: right 0px bottom 61px;
@@ -159,7 +159,7 @@
     height: 44px;
     border-radius: 22px;
     border: hidden;
-    background: #FFFFFF;
+    background: var(--primary-bg);
 
     font-weight: 700;
     font-size: 14px;
