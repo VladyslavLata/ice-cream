@@ -1,6 +1,6 @@
 <section class="contacts" id="contact">
     <div class="container">
-        <h2 class="is-hidden">Перечень представительств компании</h2>
+        <h2 class="visually-hidden">Перечень представительств компании</h2>
         <ul class="agency-list">
             <li class="agency-list__item"><span class="agency-list__cafe">CAFE</span>
                 <h3 class="agency-list__title">Chicago</h3>
@@ -65,5 +65,73 @@
                 </ul>
             </li>
         </ul>
+    </div>
+    <button type="button" class="btn btn__loc">Our Locations
+        <svg class="btn__icon" width="20px" height="20px">
+            <use href="./images/icons.svg#btn-add"></use>
+        </svg>
+    </button>
+    <div class="ground is-hidden" data-location>
+        <div class="location">
+            <button type="button" class="location-close-btn" data-location-close>
+                <svg class="location-close-icon" width="30" height="30">
+                    <use href="./images/icons.svg#icon-close-black"></use>
+                </svg>
+            </button>
+            <p class="location__description">Our locations</p>
+            <ul class="address-list list">
+                <li class="address-list__item">
+
+                    <a href="https://goo.gl/maps/r2fg45GTF6jFgzLAA" class="address-list__link link-style">Los Angeles</a>
+                </li>
+                <li class="address-list__item">
+                  <a href="https://goo.gl/maps/VC61wGBSL4KvR9PRA" class="address-list__link link-style">New York</a>
+                    
+                </li>
+                <li class="address-list__item">
+                  <a href="https://goo.gl/maps/gWKaktZ5dk5vgcjF9" class="address-list__link link-style">Chicago</a>
+                </li>
+            </ul>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.27405770525!2d-118.69192047471653!3d34.02016130653294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2z0JvQvtGBLdCQ0L3QtNC20LXQu9C10YEsINCa0LDQu9C40YTQvtGA0L3QuNGPLCDQodCo0JA!5e0!3m2!1sru!2sua!4v1619274010453!5m2!1sru!2sua"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <button type="button" class="btn btn__fran">Franchise
+        <svg class="btn__icon" width="20px" height="20px">
+            <use href="./images/icons.svg#btn-add"></use>
+        </svg>
+    </button>
+    <div class="window is-hidden">
+        <div class="franchise">
+            </button>
+            <h2 class="franchise__title">Franchise</h2>
+            <p class="franchise__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio quae corrupti ut quia temporibus qui asperiores officia reiciendis cumque velit consectetur itaque dolor dolorum debitis repellat nemo porro deserunt soluta molestias, quasi ipsam eligendi? Accusamus fugit commodi error. Quisquam hic velit in consequatur aliquam fugit cupiditate minus voluptatem ea consequuntur perspiciatis quo sed dolores adipisci reiciendis facilis magnam eveniet architecto repellendus repudiandae, vel a accusantium? Enim ducimus, ullam, laborum eius explicabo ratione repellat, fugit delectus fugiat distinctio atque quibusdam provident voluptas dolorum quas. Tempora a, amet soluta earum qui quam sint expedita sunt praesentium, repellat error. Quia laborum excepturi placeat!</p>
+            <label class="franchise-policy" for="franchise-policy__checkbox-form"> <input type="checkbox" class="franchise-policy__checkbox-form" id="franchise-policy__checkbox-form"> <span class="franchise-policy__icon"></span> <span class="franchise-policy__text"> I agree to recieve messages and accept <a href="#" class="franchise-policy__treaty">Terms of service</a></span> </label>
+            <button class="franchise__close-btn">Send</button>
+        </div>
     </div>
 </section>
