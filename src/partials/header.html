@@ -1,7 +1,18 @@
 <header class="header">
     <div class="container header_container">
         <nav class="header-nav">
-            <a href="/" class="logo"><img src="/images/logo.png" alt="логотип"></a>            
+            <a href="/" class="logo"><picture>
+                <source srcset="
+                ./images/logo.png 1x, 
+                ./images/logo-2x.png 2x" media="(min-width: 1280px)" />
+                <source srcset="
+                ./images/logo.png 1x, 
+                ./images/logo-2x.png 2x" media="(min-width: 768px)" />
+                <source srcset="
+                ./images/logo.png 1x, 
+                ./images/logo-2x.png 2x" media="(max-width: 767px)" />
+                <img src="./images/logo.png" class="logo-pic" alt="Логотип" width="199" />
+            </picture></a>            
             <div class="main-menu">
                 <ul class="list site-nav__list">
                     <li class="site-nav__item"><a href="#home" class="link site-nav__link">Home</a></li>
@@ -105,11 +116,11 @@
                 </svg>
             </button>
             <ul class="list site-nav__list mob-menu__list">
-                <li class="site-nav__item mob-menu__item"><a href="#home" class="link site-nav__link">Home</a></li>
-                <li class="site-nav__item mob-menu__item"><a href="#about" class="link site-nav__link">About us</a></li>
-                <li class="site-nav__item mob-menu__item"><a href="#made" class="link site-nav__link">How it’s made?</a></li>
-                <li class="site-nav__item mob-menu__item"><a href="#products" class="link site-nav__link">Our products</a></li>
-                <li class="site-nav__item mob-menu__item"><a href="#contact" class="link site-nav__link">Contact</a></li>
+                <li class="site-nav__item mob-menu__item"><a href="#home" class="link site-nav__link mob-menu__link">Home</a></li>
+                <li class="site-nav__item mob-menu__item"><a href="#about" class="link site-nav__link mob-menu__link">About us</a></li>
+                <li class="site-nav__item mob-menu__item"><a href="#made" class="link site-nav__link mob-menu__link">How it’s made?</a></li>
+                <li class="site-nav__item mob-menu__item"><a href="#products" class="link site-nav__link mob-menu__link">Our products</a></li>
+                <li class="site-nav__item mob-menu__item"><a href="#contact" class="link site-nav__link mob-menu__link">Contact</a></li>
             </ul>
         </div>
     </div>
