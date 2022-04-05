@@ -4,7 +4,7 @@
     @media screen and (min-width: 768px) {
         padding: 40px 0px 60px;
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
         padding: 60px 0px;
     }
 
@@ -25,7 +25,7 @@
         font-size: 26px;
         line-height: 1.15;
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
         font-size: 30px;
         line-height: 1.13;
         letter-spacing: 0.04em;
@@ -48,7 +48,7 @@
         margin-top: 18px;
         font-size: 48px;
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
         margin-top: 16px;
         font-size: 58px;
         letter-spacing: 0.06em;
@@ -57,16 +57,16 @@
 .products-list {
     @media screen and (min-width: 768px) {
         display: flex;
-        flex-wrap: wrap;
         margin-left: -16px;
     }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1280px) {
         margin-left: -32px;
     }
 }
 
 .products-list__item {
     position: relative;
+
     margin-top: 140px;
     width: 100%;
     height: 489px;
@@ -78,8 +78,8 @@
         flex-basis: calc(100%/3 - 16px);
         height: 473px;
     }
-    @media screen and (min-width: 1200px) {
-        margin-top: 261px;
+    @media screen and (min-width: 1280px) {
+        margin-top: 258px;
         margin-left: 32px;
         flex-basis: calc(100%/3 - 32px);
         height: 535px;
@@ -116,14 +116,14 @@
                 transform: translateY(-60%);
                 height: 224px;
             }
-        @media screen and (min-width: 1200px) {
+        @media screen and (min-width: 1280px) {
                 background-image: url(../images/products-img1.png);
             @media (min-device-pixel-ratio: 2),
                 (min-resolution: 192dpi),
                 (min-resolution: 2dppx) {
                     background-image: url(../images/products-img1-2x.png);
                 }
-                transform: translateY(-65%);
+                transform: translateY(-66%);
                 height: 394px;
             }
         }
@@ -157,18 +157,18 @@
                 (min-resolution: 2dppx) {
                     background-image: url(../images/products-img2-tab-2x.png);
                 }
-                transform: translateY(-66.3%);
+                transform: translateY(-60%);
                 height: 224px;
             }
 
-        @media screen and (min-width: 1200px) {
+        @media screen and (min-width: 1280px) {
                 background-image: url(../images/products-img2.png);
             @media (min-device-pixel-ratio: 2),
                 (min-resolution: 192dpi),
                 (min-resolution: 2dppx) {
                     background-image: url(../images/products-img2-2x.png);
                 }
-                transform: translateY(-62.5%);
+                transform: translateY(-66%);
                 height: 394px;
             }
         }
@@ -202,17 +202,17 @@
                 (min-resolution: 2dppx) {
                     background-image: url(../images/products-img3-tab-2x.png);
                 }
-                transform: translateY(-66.3%);
+                transform: translateY(-60%);
                 height: 224px;
             }
-        @media screen and (min-width: 1200px) {
+        @media screen and (min-width: 1280px) {
                 background-image: url(../images/products-img3.png);
             @media (min-device-pixel-ratio: 2),
                 (min-resolution: 192dpi),
                 (min-resolution: 2dppx) {
                     background-image: url(../images/products-img3-2x.png);
                 }
-                transform: translateY(-62.5%);
+                transform: translateY(-66%);
                 height: 394px;
             }
         }
@@ -227,10 +227,10 @@
     padding: 160px 40px 40px;
     height: 100%;
     @media screen and (min-width: 768px) {
-        padding: 118px 32px 40px;
+        padding: 118px 31px 40px;
     }
-    @media screen and (min-width: 1200px) {
-        padding: 165px 44px 75px;
+    @media screen and (min-width: 1280px) {
+        padding: 165px 76px 60px;
     }
 }
 
@@ -245,20 +245,29 @@
     text-transform: uppercase;
     text-align: center;
     color: var(--secondary-text);
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
         font-size: 30px;
         line-height: 1.13;
     }
 }
 
 .products-list__title::after {
+  
     position: absolute;
-    top: 40%;
-    right: 40%;
+    top: 145%;
+    left: 43%;
     content: "...";
     display: inline-block;
     color: var(--secondary-text);
-    font-size: 56px;
+    font-size: 26px;
+    @media screen and (min-width: 768px) {
+    top: 160%;
+    left: 43%;
+    }
+    @media screen and (min-width: 1280px) {
+    top: 125%;
+    left: 43%;
+    }
 }
 // --Оформлення крапочок через background-imag
 
@@ -283,22 +292,24 @@
 
     font-family: 'DM Sans';
     font-style: normal;
-    text-align: center;
     font-weight: 700;
-    line-height: 1.52;
+    font-size: 14px;
+    line-height: 1.76;
+   
+    text-align: center;
     letter-spacing: 0.04em;
     color: var(--secondary-text);
-    overflow: auto;
     @media screen and (min-width: 768px) {
         line-height: 1.76;
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
         font-size: 16px;
     }
 
 }
 
 .products__btn {
+    //  margin-top: 32px;
     display: block;
     background-image: url(../images/arrow.png);
     @media (min-device-pixel-ratio: 2),
@@ -309,7 +320,10 @@
     background-size: 40px 40px;
     background-repeat: no-repeat;
     background-position: center;
-    transition: border 50ms cubic-bezier(.23, .82, .83, .67);
+    transition: border 50ms cubic-bezier(.23, .82, .83, .67);      
+    // @media screen and (min-width: 1280px) {
+    //     margin-top: 60px;
+    // }
 
     &:hover,
     &:focus {
@@ -318,7 +332,10 @@
         0px 2px 1px rgba(0, 0, 0, 0.2);
     }
 }
+details {transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+}
 .products-list__info {
     position: absolute;
     width: 100%;
@@ -332,7 +349,7 @@
     left: 0;
     transform: translateY(-50%);
     
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
         transform: translateY(-70%);
     }
 }
