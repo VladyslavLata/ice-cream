@@ -1,0 +1,92 @@
+.ground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    opacity: 1;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .ground.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  
+  .ground.is-hidden .location {
+    transform: translate(-50%, 50%) scale(0);
+  }
+
+.location {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px 16px;
+    max-width: 528px;
+    min-width: 320px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #e17992;
+    font-family: DM Sans, sans-serif;
+
+    &-close-btn {
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background-color: #e17992;
+      border: 1px solid #e17992;
+      box-sizing: border-box;
+      top: 8px;
+      right: 8px;
+      align-items: center;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      display: flex;
+      align-items: center;
+      color: #000000;
+    }
+
+    &__description {
+      margin-bottom: 20px;
+      font-size: 20px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      font-weight: 500;
+      text-transform: uppercase;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    &-close-icon {
+      fill: #fff;
+    }
+  }
+   
+  .address-list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    list-style-type: none;
+    padding: 0;
+  
+    &__link {
+      color: #ce3b6b;
+      transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      font-size: 20px;
+      text-decoration: none;
+      font-weight: 800;
+      &:hover,
+      &:focus {
+        text-shadow: 2px 2px 2px #ffffff, -2px -2px 2px #ffffff;
+      }
+    }
+  }
