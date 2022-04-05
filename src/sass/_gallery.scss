@@ -1,0 +1,11 @@
+.gallery {
+  background-image: linear-gradient(var(--secondary-bg) 40%, var(--primary-bg) 40%);
+}
+.gallery--margin-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.gallery__container--padding {
+  padding: 0;
+}
