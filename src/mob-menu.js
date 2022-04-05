@@ -11,5 +11,8 @@
   function toggleMenu() {
     document.body.classList.toggle('modal-open');
     refs.menu.classList.toggle("is-hidden");
+    document.getElementById('burger-btn').classList.toggle('is-hidden');
+    document.getElementById('main-modal').classList.toggle('is-hidden');    
   }
+  
 })();

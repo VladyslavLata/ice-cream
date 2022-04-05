@@ -28,8 +28,8 @@
     width: 100%;
     z-index: 5;
 
-    &_container {
-        @media screen and (min-width: 1200px) {
+    &__container {
+        @media screen and (min-width: 1280px) {
             padding-left: 6px;
             
         }
@@ -56,30 +56,31 @@
    
 }
 
-.link {
-    text-decoration: none;
-}
-
-.list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
 
 .site-nav{
     &__list {
         display: none;
     
-        @media screen and (min-width: 1200px) {
+        @media screen and (min-width: 1280px) {
             display: flex;
         }
     }
 
     &__item {
-        @media screen and (min-width: 1200px) {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.31;
+        color: var(--secondary-text);
+        &:first-child {
+                color: var(--primary-accent);
+            }
+        @media screen and (min-width: 1280px) {
             &:not(:first-child) {
                 margin-left: 35px;
+                
+                
             }
+            
         }
     }
 }
@@ -88,25 +89,32 @@
     margin-left: auto;
     border: none;
     background-color: transparent;
+
+    &.is-hidden {
+        display: none;
+    }
     
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
         display: none;}
 }
 
-.menu-open__icon {fill: #D41443;}
+.menu-open__icon {fill: var(--primary-accent);}
 
 .buy__btn {
-    color: #D41443;
+
+    
+    color: var(--primary-accent);
+    
     
     & .btn__icon{
         margin-left: 12px;
-        fill: #D41443;
+        fill: var(--primary-accent);
     }
 
     .main-menu & {
        display: none; 
         @media screen and (min-width: 768px) {
-        width: 159px;
+        width: 160px;
         height: 44px;
         margin-left: 30px;
     
@@ -117,12 +125,16 @@
         justify-content: center;
         }
 
-        @media screen and (min-width: 1200px) {
-            width: 160px;
+        @media screen and (min-width: 1280px) {
+            width: 159px;
             height: 44px;
             margin-left: 110px;
     }  
-       
+    @media screen and (max-width: 1280px) {
+    &.is-hidden {
+        display: none;
+    }
+}
 }
 }
 
