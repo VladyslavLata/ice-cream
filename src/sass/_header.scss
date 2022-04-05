@@ -26,10 +26,12 @@
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 5;
 
     &_container {
         @media screen and (min-width: 1200px) {
             padding-left: 6px;
+            
         }
     }
     &-nav {
