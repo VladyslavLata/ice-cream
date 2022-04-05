@@ -1,25 +1,4 @@
-// .container {
-//     padding-left: 20px;
-//     padding-right: 20px;
-//     margin-left: auto;
-//     margin-right: auto;
 
-//     @media screen and (min-width: 480px) {
-//         width: 480px;
-//     }
-    
-//     @media screen and (min-width: 768px) {
-//         width: 768px;
-//         padding-left: 36px;
-//         padding-right: 36px;
-//     }
-    
-//     @media screen and (min-width: 1200px) {
-//         width: 1200px;
-//         padding-left: 76px;
-//         padding-right: 76px;
-//     }
-// }
 
 .header {
     position: absolute;
@@ -30,17 +9,21 @@
 
     &__container {
         @media screen and (min-width: 1280px) {
-            padding-left: 6px;
+            // padding-left: 6px;
             
         }
     }
     &-nav {
         display: flex;
         align-items: center;
-        margin-top: 6px;
+        margin-top: 8px;
         
         @media screen and (min-width: 768px) {
-            margin-top: 35px;
+            margin-top: 32px;
+        }
+
+        @media screen and (min-width: 768px) {
+            margin-top: 37px;
         }
     }
     
@@ -101,6 +84,7 @@
 .menu-open__icon {fill: var(--primary-accent);}
 
 .buy__btn {
+    height: 44px;
 
     
     color: var(--primary-accent);
@@ -115,7 +99,7 @@
        display: none; 
         @media screen and (min-width: 768px) {
         width: 160px;
-        height: 44px;
+        
         margin-left: 30px;
     
     
@@ -127,7 +111,7 @@
 
         @media screen and (min-width: 1280px) {
             width: 159px;
-            height: 44px;
+          
             margin-left: 110px;
     }  
     @media screen and (max-width: 1280px) {
