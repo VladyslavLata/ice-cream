@@ -299,7 +299,6 @@
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--secondary-text);
-    overflow: auto;
     @media screen and (min-width: 768px) {
         line-height: 1.76;
     }
@@ -310,7 +309,7 @@
 }
 
 .products__btn {
-     margin-top: 32px;
+    //  margin-top: 32px;
     display: block;
     background-image: url(../images/arrow.png);
     @media (min-device-pixel-ratio: 2),
@@ -322,9 +321,9 @@
     background-repeat: no-repeat;
     background-position: center;
     transition: border 50ms cubic-bezier(.23, .82, .83, .67);      
-    @media screen and (min-width: 1280px) {
-        margin-top: 60px;
-    }
+    // @media screen and (min-width: 1280px) {
+    //     margin-top: 60px;
+    // }
 
     &:hover,
     &:focus {
