@@ -369,9 +369,25 @@ body.modal-open {
   font-family: DM Sans, sans-serif;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 300px) {
   .franchise {
-    max-width: 528px;
+    width: 220px;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .franchise {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .franchise {
+    width: 300px;
   }
 }
 
@@ -2349,8 +2365,7 @@ details {
   position: absolute;
   padding: 30px;
   margin: 15px;
-  max-width: 500px;
-  width: 100%;
+  width: 500px;
   background-color: #e17992;
   top: 50%;
   left: 50%;
@@ -2363,9 +2378,31 @@ details {
   border-radius: 20px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 300px) {
   .information {
-    max-width: 528px;
+    width: 220px;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .information {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .information {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .information {
+    width: 220px;
   }
 }
 
