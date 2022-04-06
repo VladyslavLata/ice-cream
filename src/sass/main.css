@@ -15,6 +15,8 @@
   --hero-bg: #FFB8CA;
   --card-bg-second: #F0D1A5;
   --card-bg-third: #C2E297;
+  --mobile-bg: #E17992;
+  --btn-bg: #ECEBEB;
   --margin: 60px;
 }
 
@@ -139,10 +141,22 @@ body.modal-open {
   top: 0;
   left: 0;
   width: 100%;
+<<<<<<< HEAD
+  z-index: 5;
+}
+
+=======
   z-index: 6;
 }
+>>>>>>> main
 .header-nav {
   display: flex;
+<<<<<<< HEAD
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 8px;
+=======
   align-items: center;
   margin-top: 8px;
 }
@@ -150,9 +164,19 @@ body.modal-open {
   .header-nav {
     margin-top: 32px;
   }
+>>>>>>> main
 }
 @media screen and (min-width: 768px) {
   .header-nav {
+<<<<<<< HEAD
+    margin-top: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-nav {
+=======
+>>>>>>> main
     margin-top: 37px;
   }
 }
@@ -166,11 +190,30 @@ body.modal-open {
 .site-nav__list {
   display: none;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> main
 @media screen and (min-width: 1280px) {
   .site-nav__list {
     display: flex;
   }
 }
+<<<<<<< HEAD
+
+.site-nav__item {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+  color: var(--secondary-text);
+}
+
+.site-nav__item:first-child {
+  color: var(--primary-accent);
+}
+
+=======
+>>>>>>> main
 @media screen and (min-width: 1280px) {
   .site-nav__item:not(:first-child) {
     margin-left: 35px;
@@ -192,6 +235,13 @@ body.modal-open {
   border: none;
   background-color: transparent;
 }
+<<<<<<< HEAD
+
+.menu-open__btn.is-hidden {
+  display: none;
+}
+
+=======
 .menu-open__btn .menu-open__icon {
   fill: var(--primary-accent);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -202,12 +252,22 @@ body.modal-open {
 .menu-open__btn.is-hidden {
   display: none;
 }
+>>>>>>> main
 @media screen and (min-width: 1280px) {
   .menu-open__btn {
     display: none;
   }
 }
 
+<<<<<<< HEAD
+.menu-open__icon {
+  fill: var(--primary-accent);
+}
+
+.buy__btn {
+  height: 44px;
+  color: var(--primary-accent);
+=======
 .buy__btn {
   font-weight: 700;
   font-size: 16px;
@@ -219,6 +279,7 @@ body.modal-open {
 }
 .buy__btn:hover, .buy__btn:focus {
   background-color: var(--btn-bg);
+>>>>>>> main
 }
 .buy__btn .btn__icon {
   margin-left: 12px;
@@ -230,18 +291,38 @@ body.modal-open {
 @media screen and (min-width: 768px) {
   .main-menu .buy__btn {
     width: 160px;
+<<<<<<< HEAD
+    margin-left: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+=======
     margin-left: 32px;
+>>>>>>> main
     display: flex;
     align-items: center;
     justify-content: center;
   }
 }
+<<<<<<< HEAD
+
+@media screen and (min-width: 1280px) {
+  .main-menu .buy__btn {
+    width: 159px;
+    margin-left: 110px;
+=======
 @media screen and (min-width: 1280px) {
   .main-menu .buy__btn {
     width: 159px;
     margin-left: 174px;
   }
 }
+@media screen and (max-width: 1280px) {
+  .main-menu .buy__btn.is-hidden {
+    display: none;
+>>>>>>> main
+  }
+}
+
 @media screen and (max-width: 1280px) {
   .main-menu .buy__btn.is-hidden {
     display: none;
@@ -277,6 +358,10 @@ body.modal-open {
   transform: translateX(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> main
 @media screen and (min-width: 1280px) {
   .mob-menu {
     display: none;
@@ -338,6 +423,28 @@ body.modal-open {
   margin-top: 22px;
 }
 
+@media screen and (max-width: 767px) {
+  .mob-menu__list {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .mob-menu__list {
+    margin-top: 32px;
+  }
+}
+
+.mob-menu__item {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.29;
+}
+
+.mob-menu__item:not(:first-child) {
+  margin-top: 22px;
+}
+
 .menu-close__btn {
   position: absolute;
   top: 20px;
@@ -381,7 +488,6 @@ body.modal-open {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 40px 40px;
-  margin: 10px;
   max-width: 528px;
   width: 100%;
   background: #ffffff;
@@ -391,6 +497,12 @@ body.modal-open {
   background-color: #e17992;
   font-family: DM Sans, sans-serif;
 }
+<<<<<<< HEAD
+
+@media screen and (max-width: 479px) {
+  .franchise {
+    width: 100%;
+=======
 @media screen and (max-width: 300px) {
   .franchise {
     width: 220px;
@@ -407,6 +519,7 @@ body.modal-open {
 @media screen and (max-width: 550px) {
   .franchise {
     width: 300px;
+>>>>>>> main
   }
 }
 .franchise__close-btn {
@@ -850,21 +963,40 @@ body.modal-open {
     cursor: pointer;
   }
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> main
 @media screen and (min-width: 767px) and (min-width: 1280px) {
   .hero__summary {
     width: 26px;
     height: 26px;
   }
 }
+<<<<<<< HEAD
+
+@media screen and (min-width: 767px) {
+  .hero__summary:active .hero__arrow {
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+=======
 @media screen and (min-width: 767px) {
   .hero__summary:active .hero__arrow {
     transform: scale(0.85);
+>>>>>>> main
   }
 }
 
 @media screen and (min-width: 767px) {
   .hero__arrow {
+<<<<<<< HEAD
+    -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+=======
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+>>>>>>> main
   }
 }
 
@@ -1273,12 +1405,20 @@ body.modal-open {
     background-image: url(../images/arrow-2x.png);
   }
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> main
 .products__btn:hover, .products__btn:focus {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .products-list__infotitle {
+<<<<<<< HEAD
+  font-family: 'Titan One';
+=======
   font-family: "Titan One";
+>>>>>>> main
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -1733,6 +1873,10 @@ body.modal-open {
     padding-bottom: 80px;
   }
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> main
 @media screen and (min-width: 1280px) {
   .reviews__container {
     padding-top: 120px;
@@ -1760,6 +1904,10 @@ body.modal-open {
     padding: 20px 6px 36px 6px;
   }
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> main
 @media screen and (min-width: 1280px) {
   .reviews__box {
     padding: 47px 105px 39px 107px;
@@ -1781,6 +1929,10 @@ body.modal-open {
     left: 6px;
   }
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> main
 @media screen and (min-width: 1280px) {
   .reviews__box::before {
     top: 30px;
@@ -1811,11 +1963,19 @@ body.modal-open {
 @media screen and (min-width: 768px) {
   .reviews__text {
     font-size: 14px;
+<<<<<<< HEAD
+    line-height: 2,16;
+=======
     line-height: 2, 16;
+>>>>>>> main
     padding-left: 45px;
     padding-right: 45px;
   }
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> main
 @media screen and (min-width: 1280px) {
   .reviews__text {
     font-size: 16px;
@@ -1838,6 +1998,28 @@ body.modal-open {
     background-image: repeating-linear-gradient(#FAFAFA, #E1E1E1 2px, transparent 1px, transparent 34px);
   }
 }
+@media screen and (min-width: 1280px) {
+  .reviews__text::after {
+    height: 100%;
+  }
+}
+
+.reviews__text::after {
+  content: "";
+  width: 100%;
+  height: calc(100% - 30px);
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background-image: repeating-linear-gradient(#FAFAFA, #E1E1E1 2px, transparent 1px, transparent 30px);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .reviews__text::after {
+    background-image: repeating-linear-gradient(#FAFAFA, #E1E1E1 2px, transparent 1px, transparent 34px);
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .reviews__text::after {
     height: 100%;
@@ -1870,7 +2052,13 @@ body.modal-open {
 
 .slick-track {
   display: flex;
+<<<<<<< HEAD
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+=======
   align-items: flex-start;
+>>>>>>> main
 }
 
 .slider {
@@ -1882,6 +2070,10 @@ body.modal-open {
     padding: 0px 74px;
   }
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> main
 @media (min-width: 1280px) {
   .slider {
     padding: 0px 123px;
@@ -1898,6 +2090,10 @@ body.modal-open {
   list-style: none;
   text-align: center;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> main
 .slick-dots li button:before {
   font-size: 0;
   text-align: center;
@@ -1907,6 +2103,10 @@ body.modal-open {
   background-color: #D9D9D9;
   opacity: 1;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> main
 .slick-dots li.slick-active button:before {
   background: url("../images/home.svg") 0 0/100% no-repeat;
 }
@@ -2145,7 +2345,6 @@ body.modal-open {
 .information {
   position: absolute;
   padding: 30px;
-  margin: 15px;
   width: 500px;
   background-color: #e17992;
   top: 50%;
@@ -2155,6 +2354,12 @@ body.modal-open {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
 }
+<<<<<<< HEAD
+
+@media screen and (max-width: 479px) {
+  .information {
+    width: 100%;
+=======
 @media screen and (max-width: 300px) {
   .information {
     width: 220px;
@@ -2176,6 +2381,7 @@ body.modal-open {
 @media screen and (max-width: 340px) {
   .information {
     width: 220px;
+>>>>>>> main
   }
 }
 .information__text {
@@ -2406,7 +2612,7 @@ body.modal-open {
   margin: 0 auto;
   padding-top: 8px;
   padding-bottom: 8px;
-  color: var(--pimary-text);
+  color: var(--primary-text);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.86;
@@ -2445,10 +2651,7 @@ body.modal-open {
 .modal {
   position: absolute;
   padding: 40px;
-  margin: 15px;
-  max-width: 500px;
-  width: 100%;
-  /*min-height: 609px; */
+  width: 500px;
   background-color: #e17992;
   top: 50%;
   left: 50%;
@@ -2457,9 +2660,14 @@ body.modal-open {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
 }
+<<<<<<< HEAD
+
+@media screen and (max-width: 479px) {
+=======
 @media screen and (min-width: 1200px) {
+>>>>>>> main
   .modal {
-    max-width: 528px;
+    width: 100%;
   }
 }
 .modal__icon {
@@ -2615,7 +2823,7 @@ body.modal-open {
 }
 @media screen and (min-width: 1200px) {
   .modal-policy__text {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.71px;
   }
 }
@@ -2694,6 +2902,16 @@ body.modal-open {
   background-color: #e17992;
   font-family: DM Sans, sans-serif;
 }
+<<<<<<< HEAD
+
+@media screen and (max-width: 479px) {
+  .location {
+    width: 100%;
+  }
+}
+
+=======
+>>>>>>> main
 .location-close-btn {
   position: absolute;
   width: 35px;
