@@ -5,11 +5,11 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 5;
+    z-index: 6;
 
     &__container {
         @media screen and (min-width: 1280px) {
-            // padding-left: 6px;
+            
             
         }
     }
@@ -50,13 +50,7 @@
     }
 
     &__item {
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.31;
-        color: var(--secondary-text);
-        &:first-child {
-                color: var(--primary-accent);
-            }
+        
         @media screen and (min-width: 1280px) {
             &:not(:first-child) {
                 margin-left: 35px;
@@ -66,28 +60,65 @@
             
         }
     }
+
+    &__link {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.31;
+color: var(--secondary-text);
+transition: $transition-value;
+
+&:focus,
+&:hover {
+    color: var(--primary-accent);
+}
+    }
 }
 
-.menu-open__btn{
+.menu-open__btn {
+    padding: 0;
+    height: 30px;
+    width: 30px;
     margin-left: auto;
     border: none;
     background-color: transparent;
+    & .menu-open__icon {
+        height: 30px;
+        width: 30px;
+        fill: var(--primary-accent);
+        transition: fill $transition-value;
+        
+    }
+    &:hover .menu-open__icon,
+    &:focus .menu-open__icon {
+        fill: var(--secondary-text);
+    }
 
     &.is-hidden {
         display: none;
     }
     
     @media screen and (min-width: 1280px) {
-        display: none;}
+        display: none;
+    }
+    
+
 }
 
-.menu-open__icon {fill: var(--primary-accent);}
-
 .buy__btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.31;
     height: 44px;
-
+    background-color: var(--primary-bg);  
+    transition: background-color $transition-value;
     
     color: var(--primary-accent);
+
+    &:hover,
+    &:focus {
+        background-color: var(--btn-bg);
+    }
     
     
     & .btn__icon{
@@ -100,7 +131,7 @@
         @media screen and (min-width: 768px) {
         width: 160px;
         
-        margin-left: 30px;
+        margin-left: 32px;
     
     
     
@@ -112,7 +143,7 @@
         @media screen and (min-width: 1280px) {
             width: 159px;
           
-            margin-left: 110px;
+            margin-left: 174px;
     }  
     @media screen and (max-width: 1280px) {
     &.is-hidden {
