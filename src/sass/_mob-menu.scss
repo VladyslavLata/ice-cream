@@ -9,25 +9,28 @@
     right: 0;
     
     padding-top: 60px;
-    transform: translateX(0%);
+    transform: translateX(0);
     transition: transform $transition-value;
     box-shadow: -8px 0px 20px rgba(0, 0, 0, 0.25);
     transition: box-shadow $transition-value;
+    opacity: 1;
+    transition: opacity $transition-value;
 
     @media screen and (min-width: 320px) {
-        width: 250px;
+        width: 250px;       
         
     }
     @media screen and (min-width: 768px) {
         width: 254px;
-        padding-top: 58px;
-        
+        padding-top: 58px;              
         
     }
 
     &.is-hidden {
-        transform: translateX(100%);
+        transform: translateX(110%);
         transition: transform $transition-value;
+       & .mob-menu__container {
+        opacity: 0;}
     }
 
     @media screen and (min-width: 1280px) {
