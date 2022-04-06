@@ -6,6 +6,15 @@
     left: 0;
     width: 100%;
     z-index: 6;
+    padding-top: 8px;
+    
+    @media screen and (min-width: 768px) {
+        padding-top: 32px;
+    }
+    
+    @media screen and (min-width: 768px) {
+        padding-top: 37px;
+    }
 
     &__container {
         @media screen and (min-width: 1280px) {
@@ -16,26 +25,15 @@
     &-nav {
         display: flex;
         align-items: center;
-        margin-top: 8px;
         
-        @media screen and (min-width: 768px) {
-            margin-top: 32px;
-        }
-
-        @media screen and (min-width: 768px) {
-            margin-top: 37px;
-        }
     }
     
 }
-
-
 
 .main-menu {
     display: flex;
     align-items: center;
     margin-left: auto;
-
    
 }
 
