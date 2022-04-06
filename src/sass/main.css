@@ -2751,7 +2751,6 @@ body.modal-open {
   position: absolute;
   padding: 40px;
   width: 500px;
-  /*min-height: 609px; */
   background-color: #e17992;
   top: 50%;
   left: 50%;
@@ -2976,7 +2975,7 @@ body.modal-open {
 
 @media screen and (min-width: 1200px) {
   .modal-policy__text {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.71px;
   }
 }
