@@ -1,18 +1,7 @@
 .hero {
-  background-color: var(--hero-bg);
-
-  @media screen and (min-width: 1600px) {
-    width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-.hero__container {
-  position: relative;
   padding-top: 193px;
   padding-bottom: 160px;
-  z-index: 2;
+  background-color: var(--hero-bg);
 
   @media screen and (max-width: 480px) {
     overflow: hidden;
@@ -27,6 +16,17 @@
     padding-top: 147px;
     padding-bottom: 84px;
   }
+
+  @media screen and (min-width: 1600px) {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.hero__container {
+  position: relative;
+  z-index: 2;
 }
 
 .hero__title {
@@ -73,7 +73,7 @@
   position: absolute;
   content: ' ';
   display: block;
-  bottom: 75px;
+  bottom: -85px;
   width: 346px;
   height: 344px;
   border-radius: 50%;
@@ -90,14 +90,14 @@
 
   @media screen and (min-width: 768px) {
     left: 248px;
-    bottom: 40px;
+    bottom: -16px;
   }
 
   @media screen and (min-width: 1280px) {
     width: 534px;
     height: 534px;
     left: 517px;
-    bottom: 76px;
+    bottom: -8px;
   }
 }
 
@@ -132,13 +132,13 @@
   @media screen and (min-width: 768px) {
     width: 43px;
     height: 44px;
-    top: 92px;
+    top: -10px;
   }
 
   @media screen and (min-width: 1280px) {
     width: 72px;
     height: 77px;
-    top: 153px;
+    top: -4px;
   }
 }
 
@@ -146,13 +146,13 @@
   @media screen and (min-width: 768px) {
     width: 59px;
     height: 43px;
-    top: 152px;
+    top: 50px;
   }
 
   @media screen and (min-width: 1280px) {
     width: 98px;
     height: 76px;
-    top: 245px;
+    top: 98px;
   }
 }
 
@@ -262,12 +262,12 @@
   @media screen and (min-width: 768px) {
     position: absolute;
     left: 32px;
-    bottom: 16px;
+    bottom: -40px;
   }
 
   @media screen and (min-width: 1280px) {
     left: 16px;
-    bottom: 60px;
+    bottom: -24px;
   }
 }
 
@@ -367,8 +367,7 @@
 
 .hero__img--main {
   position: absolute;
-  bottom: 0;
-  // right: 32px;
+  bottom: -160px;
   z-index: -1;
   @media screen and (max-width: 382px) {
     left: 117px;
@@ -379,10 +378,12 @@
 
   @media screen and (min-width: 768px) {
     left: 322px;
+    bottom: -56px;
   }
 
   @media screen and (min-width: 1280px) {
     left: 636px;
+    bottom: -84px;
   }
 }
 
@@ -394,10 +395,11 @@
   @media screen and (min-width: 768px) {
     position: absolute;
     right: 32px;
-    bottom: 0;
+    bottom: -56px;
   }
 
   @media screen and (min-width: 1280px) {
     right: 16px;
+    bottom: -84px;
   }
 }
