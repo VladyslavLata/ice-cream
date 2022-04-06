@@ -27,7 +27,33 @@
         align-items: center;
         
     }
+
     
+    
+}
+
+.top__btn {
+    width: 80px;
+    border: 2px solid var(--secondary-accent);
+    background: var(--primary-bg);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    color: var(--primary-accent);
+    font-weight: 700;
+    // font-size: 16px;
+    // line-height: 1.32;
+    // font-family: 'DM Sans',
+    // sans-serif;
+    font-size: 12px;
+    
+    // &:hover,
+    // &:focus {
+    //     background-color: var(--btn-bg);
+    // }
 }
 
 .main-menu {
