@@ -87,6 +87,7 @@ transition: $transition-value;
         width: 30px;
         fill: var(--primary-accent);
         transition: fill $transition-value;
+        
     }
     &:hover .menu-open__icon,
     &:focus .menu-open__icon {
@@ -100,6 +101,7 @@ transition: $transition-value;
     @media screen and (min-width: 1280px) {
         display: none;
     }
+    
 
 }
 
