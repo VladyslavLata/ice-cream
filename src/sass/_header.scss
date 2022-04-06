@@ -75,11 +75,12 @@ transition: $transition-value;
     }
 }
 
-.menu-open__btn{
+.menu-open__btn {
     margin-left: auto;
     border: none;
     background-color: transparent;
     & .menu-open__icon {
+        height: 20px;
         fill: var(--primary-accent);
         transition: fill $transition-value;
     }
