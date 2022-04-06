@@ -107,6 +107,9 @@
 }
 .menu-close {
     &__btn {
+        width: 30px;
+        height: 30px;
+        padding: 0;
         position: absolute;
         top: 20px;
         right: 20px;
@@ -123,6 +126,8 @@
     
     }
     &__icon {
+        width: 30px;
+        height: 30px;
         fill: var(--primary-bg);
         transition: fill $transition-value;
     }
