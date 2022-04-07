@@ -141,13 +141,16 @@ transition: $transition-value;
 
     &:hover,
     &:focus {
-        background-color: var(--btn-bg);
+        background-color: var(--primary-accent);
+        color: var(--secondary-text);
     }
     
     
     & .btn__icon{
         margin-left: 12px;
         fill: var(--primary-accent);
+
+        
     }
 
     .main-menu & {
@@ -168,14 +171,20 @@ transition: $transition-value;
             width: 159px;
           
             margin-left: 174px;
-    }  
+        }  
     @media screen and (max-width: 1280px) {
     &.is-hidden {
         display: none;
     }
 }
 }
+&:hover .btn__icon,
+&:focus .btn__icon {
+    fill: var(--secondary-text);
 }
+}
+
+
 
 
 
