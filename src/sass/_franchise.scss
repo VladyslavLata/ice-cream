@@ -55,6 +55,11 @@
     font-weight: 700;
     border: none;
     transition: background .25s cubic-bezier(.4,0,.2,1);
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      background-color: #ecebeb;
+    }
 
     &:focus {
       background-color: #ecebeb;
