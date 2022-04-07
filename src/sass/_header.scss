@@ -111,7 +111,8 @@
 
   &:hover,
   &:focus {
-    background-color: var(--btn-bg);
+    background-color: var(--primary-accent);
+    color: var(--secondary-text);
   }
 
   & .btn__icon {
