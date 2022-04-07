@@ -516,7 +516,7 @@ body.modal-open {
           transform: translate(-50%, -50%);
   padding: 40px 40px;
   max-width: 528px;
-  width: 100%;
+  width: calc(100% - 30px);
   background: #ffffff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -527,12 +527,6 @@ body.modal-open {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #e17992;
   font-family: DM Sans, sans-serif;
-}
-
-@media screen and (max-width: 479px) {
-  .franchise {
-    width: 100%;
-  }
 }
 
 .franchise__close-btn {
@@ -2670,7 +2664,8 @@ body.modal-open {
 .information {
   position: absolute;
   padding: 30px;
-  width: 500px;
+  max-width: 500px;
+  width: calc(100% - 30px);
   background-color: #e17992;
   top: 50%;
   left: 50%;
@@ -2681,12 +2676,6 @@ body.modal-open {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
-}
-
-@media screen and (max-width: 479px) {
-  .information {
-    width: 100%;
-  }
 }
 
 .information__text {
@@ -3011,7 +3000,8 @@ body.modal-open {
 .modal {
   position: absolute;
   padding: 40px;
-  width: 500px;
+  max-width: 500px;
+  width: calc(100% - 30px);
   background-color: #e17992;
   top: 50%;
   left: 50%;
@@ -3022,12 +3012,6 @@ body.modal-open {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
-}
-
-@media screen and (max-width: 519px) {
-  .modal {
-    width: 100%;
-  }
 }
 
 .modal__icon {
@@ -3329,7 +3313,8 @@ body.modal-open {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   padding: 40px 16px;
-  width: 435px;
+  max-width: 435px;
+  width: calc(100% - 30px);
   background: #ffffff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -3340,12 +3325,6 @@ body.modal-open {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #e17992;
   font-family: DM Sans, sans-serif;
-}
-
-@media screen and (max-width: 430px) {
-  .location {
-    width: 100%;
-  }
 }
 
 .location-close-btn {

@@ -24,7 +24,8 @@
   .information {
     position: absolute;
     padding: 30px;
-    width: 500px;
+    max-width: 500px;
+    width: calc(100% - 30px);
     background-color: #e17992;
     top: 50%;
     left: 50%;
@@ -33,10 +34,6 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-    @media screen and (max-width: 479px) {
-      width: 100%;
-    }
-  
   
     &__text {
       font-weight: 500;
