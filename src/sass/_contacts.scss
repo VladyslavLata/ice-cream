@@ -1,5 +1,5 @@
 .contacts {
-    background-image: linear-gradient(
+  background-image: linear-gradient(
     to bottom,
     var(--primary-bg) 327px,
     var(--secondary-bg) 327px,
@@ -16,37 +16,33 @@
   }
 
   @media screen and (min-width: 1280px) {
-          background-image:  url("../images/contacts-background.png"), linear-gradient(
+    background-image: url('../images/contacts-background.png'),
+      linear-gradient(
         to bottom,
         var(--primary-bg) 101px,
         var(--secondary-bg) 101px,
         var(--secondary-bg)
       );
-      background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: contain, auto;
     background-position: top 141px left 50%, top left;
-    
+
     @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-        background-image: url("../images/contacts-background-2x.png"),
-        linear-gradient(to bottom,
-            var(--primary-bg) 101px,
-            var(--secondary-bg) 101px,
-            var(--secondary-bg));
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url('../images/contacts-background-2x.png'),
+        linear-gradient(
+          to bottom,
+          var(--primary-bg) 101px,
+          var(--secondary-bg) 101px,
+          var(--secondary-bg)
+        );
     }
-}
-
-//     @media screen and (min-width: 1600px) {
-// width: 1600px;
-// margin-right: auto;
-// margin-left: auto;        
-//     }
-
+  }
 }
 
 .contacts__container {
-    @media screen and (min-width: 768px) and (max-width: 1279px) {
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
     padding-right: 18px;
     padding-left: 18px;
   }
@@ -274,6 +270,7 @@
   &:focus {
     background-color: var(--primary-bg);
     color: #d41342;
+    border-color: var(--secondary-accent);
   }
 }
 
@@ -287,11 +284,13 @@
   }
   background-color: var(--primary-bg);
   color: var(--primary-accent);
+  border-color: var(--secondary-accent);
 
   &:hover,
   &:focus {
     background-color: var(--primary-accent);
     color: var(--secondary-text);
+    border-color: transparent;
   }
 }
 

@@ -1,49 +1,60 @@
 .btn {
-    border: 1px solid transparent;
-    border-radius: 22px;
-    font-size: 16px;
-    line-height: 1.31;
-    cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 22px;
+  font-size: 16px;
+  line-height: 1.31;
+  cursor: pointer;
 
-    // в секции hero - font-size: 14px; - прописать отдельно
-    // font-weight - разный
+  // в секции hero - font-size: 14px; - прописать отдельно
+  // font-weight - разный
 }
 
 .btn--circle {
-    height: 40px;
-    width: 40px;
-    border: 1px solid transparent;
-    border-radius: 50%;
-    cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .btn--transparent {
-    background-color: var(--secondary-text);
-    color: var(--primary-accent);
-    transition: color $transition-value,
-        background-color $transition-value;
+  background-color: var(--secondary-text);
+  color: var(--primary-accent);
+  transition: color $transition-value, background-color $transition-value;
 
-    &:hover,
-    &:focus {
-        background-color: var(--primary-accent);
-        color: var(--secondary-text);
-    }
-
+  &:hover,
+  &:focus {
+    background-color: var(--primary-accent);
+    color: var(--secondary-text);
+    border-color: transparent;
+  }
 }
 
 .btn--accent {
-    background-color: var(--primary-accent);
-    color: var(--secondary-text);
-    transition: color $transition-value, background-color $transition-value;
+  background-color: var(--primary-accent);
+  color: var(--secondary-text);
+  transition: color $transition-value, background-color $transition-value;
 
-    &:hover,
-    &:focus {
-        background-color: var(--secondary-text);
-        color: var(--primary-accent);
-    }
-
+  &:hover,
+  &:focus {
+    background-color: var(--secondary-text);
+    color: var(--primary-accent);
+  }
 }
 
+.top__btn {
+  border: 2px solid var(--secondary-accent);
+  background: var(--primary-bg);
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 15px;
+  right: 30px;
+  color: var(--primary-accent);
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+}
 
 // в кнопках предлагаю структуру классов (на примере hero):
 // hero-button hero-button__buy btn btn--accent
