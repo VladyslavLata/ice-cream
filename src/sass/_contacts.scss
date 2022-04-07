@@ -272,7 +272,8 @@ margin-left: auto;
 
   &:hover,
   &:focus {
-    background-color: #c7133e;
+    background-color: var(--primary-bg);
+    color: #d41342;
   }
 }
 
@@ -289,7 +290,8 @@ margin-left: auto;
 
   &:hover,
   &:focus {
-    background-color: #ecebeb;
+    background-color: var(--primary-accent);
+    color: var(--secondary-text);
   }
 }
 
